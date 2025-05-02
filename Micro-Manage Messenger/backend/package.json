@@ -1,0 +1,27 @@
+{
+  "name": "micro-manage-messenger-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.12.0",
+    "@prisma/client": "^5.12.0",
+    "bcrypt": "^5.1.1",
+    "multer": "^1.4.5-lts.1",
+    "aws-sdk": "^2.1564.0",
+    "sharp": "^0.33.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
